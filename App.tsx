@@ -54,7 +54,7 @@ export default function App() {
 
   const activeAddress = user.addresses.find(a => a.isDefault) || user.addresses[0];
 
-  const cartTotalItems = Object.values(cart).reduce((a: number, b: number) => a + b, 0);
+  const cartTotalItems = (Object.values(cart) as number[]).reduce((a: number, b: number) => a + b, 0);
   const cartTotalPrice = Object.entries(cart).reduce((total: number, [id, qty]: [string, number]) => {
     const product = PRODUCTS.find(p => p.id === id);
     return total + (product ? (product.discountPrice || product.price) * qty : 0);
@@ -243,7 +243,8 @@ export default function App() {
         {/* Categories Grid - Mobile Optimized */}
         <div className="mb-10 px-4 md:px-0">
             <h3 className="text-lg md:text-xl font-bold text-slate-800 mb-4">Shop by Category</h3>
-            <div className="grid grid-cols-4 sm:grid-cols-4 md:grid-cols-8 gap-x-3 gap-y-6">
+            {/* Updated grid to 6 cols on desktop to fit 17 items as 6, 6, 5 */}
+            <div className="grid grid-cols-4 sm:grid-cols-5 md:grid-cols-6 gap-x-3 gap-y-6">
                 {CATEGORIES.map(cat => (
                     <div 
                         key={cat.id} 

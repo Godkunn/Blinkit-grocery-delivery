@@ -51,7 +51,7 @@ const PRODUCT_TEMPLATES = [
   // --- Munchies ---
   { name: 'Potato Chips (Salted)', category: 'Munchies', price: 20, image: 'https://images.unsplash.com/photo-1566478989037-eec170784d0b?w=400&q=80' },
   { name: 'Spicy Nachos', category: 'Munchies', price: 90, image: 'https://images.unsplash.com/photo-1513456852971-30c0b8199d4d?w=400&q=80' },
-  { name: 'Roasted Peanuts', category: 'Munchies', price: 40, image: 'https://images.unsplash.com/photo-1522582324369-2dfc36bd9275?w=400&q=80' }, // Better Peanuts Image
+  { name: 'Roasted Peanuts', category: 'Munchies', price: 40, image: 'https://images.unsplash.com/photo-1627518423403-51980302b115?w=400&q=80' }, // Roasted Peanuts
   { name: 'Butter Popcorn', category: 'Munchies', price: 85, image: 'https://images.unsplash.com/photo-1578849278619-e73505e9610f?w=400&q=80' },
   { name: 'Chicken Jerky', category: 'Munchies', price: 199, image: 'https://images.unsplash.com/photo-1600863920703-b0bb7a726352?w=400&q=80' },
   { name: 'Millet Namkeen', category: 'Munchies', price: 179, image: 'https://images.unsplash.com/photo-1599423300746-b62507ac9705?w=400&q=80' },
@@ -117,14 +117,14 @@ const PRODUCT_TEMPLATES = [
   { name: 'Salt Packet', category: 'Atta, Rice & Dal', price: 28, image: 'https://images.unsplash.com/photo-1626131367469-82604646738f?w=400&q=80' },
 
   // --- Dry Fruits ---
-  { name: 'Premium Almonds', category: 'Masala & Dry Fruits', price: 450, image: 'https://images.unsplash.com/photo-1608611166395-6a56c3619586?w=400&q=80' },
+  { name: 'Premium Almonds', category: 'Masala & Dry Fruits', price: 450, image: 'https://images.unsplash.com/photo-1623428187969-5da2dcea5ebf?w=400&q=80' }, // Almonds
   { name: 'Salted Almonds', category: 'Masala & Dry Fruits', price: 480, image: 'https://images.unsplash.com/photo-1508061461508-a0d926face77?w=400&q=80' },
-  { name: 'Cashew Nuts', category: 'Masala & Dry Fruits', price: 600, image: 'https://images.unsplash.com/photo-1626505740488-84e03d6d5a19?w=400&q=80' }, // Updated Image for Badshah Cashew
+  { name: 'Cashew Nuts', category: 'Masala & Dry Fruits', price: 600, image: 'https://images.unsplash.com/photo-1576020799627-aeac74d58064?w=400&q=80' }, // Cashews
   { name: 'Walnuts', category: 'Masala & Dry Fruits', price: 800, image: 'https://images.unsplash.com/photo-1594921674482-12f86241b777?w=400&q=80' },
   { name: 'Turmeric Powder', category: 'Masala & Dry Fruits', price: 40, image: 'https://images.unsplash.com/photo-1615485500704-8e99099928b3?w=400&q=80' },
 
   // --- Sweets ---
-  { name: 'Chocolate Bar', category: 'Sweet Cravings', price: 80, image: 'https://images.unsplash.com/photo-1606312619070-d48b706521bf?w=400&q=80' }, // Updated Image
+  { name: 'Chocolate Bar', category: 'Sweet Cravings', price: 80, image: 'https://images.unsplash.com/photo-1548907040-4baa42d10919?w=400&q=80' }, // Amul/Dark Chocolate Style
   { name: 'Dark Chocolate', category: 'Sweet Cravings', price: 120, image: 'https://images.unsplash.com/photo-1511381939415-e44015466834?w=400&q=80' },
   { name: 'Gulab Jamun', category: 'Sweet Cravings', price: 220, image: 'https://images.unsplash.com/photo-1593701461250-d71331798595?w=400&q=80' },
   { name: 'Vanilla Ice Cream', category: 'Sweet Cravings', price: 250, image: 'https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=400&q=80' },
@@ -134,7 +134,7 @@ const PRODUCT_TEMPLATES = [
   // --- Personal Care ---
   { name: 'Moisturizing Soap', category: 'Bath & Body', price: 60, image: 'https://images.unsplash.com/photo-1600857544200-b2f666a9a2ec?w=400&q=80' },
   { name: 'Shampoo', category: 'Bath & Body', price: 180, image: 'https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?w=400&q=80' },
-  { name: 'Face Wash', category: 'Bath & Body', price: 160, image: 'https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=400&q=80' }, // Updated Image for Dettol Face Wash
+  { name: 'Face Wash', category: 'Bath & Body', price: 160, image: 'https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=400&q=80' }, 
   { name: 'Toothpaste', category: 'Bath & Body', price: 95, image: 'https://images.unsplash.com/photo-1559599189-fe84fea4eb8b?w=400&q=80' },
 
   // --- Cleaning ---
@@ -142,12 +142,12 @@ const PRODUCT_TEMPLATES = [
   { name: 'Detergent Pods', category: 'Cleaning Essentials', price: 350, image: 'https://images.unsplash.com/photo-1610557892470-55d9e80c0bce?w=400&q=80' },
   { name: 'Floor Cleaner', category: 'Cleaning Essentials', price: 195, image: 'https://images.unsplash.com/photo-1628146203923-d343c6838df4?w=400&q=80' },
   { name: 'Surface Cleaner', category: 'Cleaning Essentials', price: 180, image: 'https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=400&q=80' },
-  { name: 'Dish Wash Bar', category: 'Cleaning Essentials', price: 45, image: 'https://images.unsplash.com/photo-1605335805796-ad4032d66579?w=400&q=80' },
+  { name: 'Dish Wash Bar', category: 'Cleaning Essentials', price: 45, image: 'https://images.unsplash.com/photo-1600857544200-b2f666a9a2ec?w=400&q=80' }, // Dish Wash Bar (Green Bar Style)
 
   // --- Home ---
   { name: 'Air Freshener', category: 'Home & Kitchen', price: 150, image: 'https://images.unsplash.com/photo-1616606045558-75b838c6d32f?w=400&q=80' },
   { name: 'Room Spray', category: 'Home & Kitchen', price: 180, image: 'https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=400&q=80' },
-  { name: 'Tissue Box', category: 'Home & Kitchen', price: 65, image: 'https://images.unsplash.com/photo-1512413914633-b5043f4041ea?w=400&q=80' }, // Updated Image
+  { name: 'Tissue Box', category: 'Home & Kitchen', price: 65, image: 'https://images.unsplash.com/photo-1512413914633-b5043f4041ea?w=400&q=80' }, 
   { name: 'Kitchen Towel', category: 'Home & Kitchen', price: 120, image: 'https://images.unsplash.com/photo-1627995163989-14a514d23460?w=400&q=80' },
   { name: 'Paper Napkins', category: 'Home & Kitchen', price: 90, image: 'https://images.unsplash.com/photo-1616401784845-180882ba9ba8?w=400&q=80' },
 
@@ -201,7 +201,7 @@ const FIXED_PRODUCTS: Product[] = [
         id: 'breeze-aam-papad-250',
         name: 'Breeze Aam Papad',
         category: 'Paan Corner',
-        image: 'https://images.unsplash.com/photo-1599639668312-70b65f727f7f?w=400&q=80',
+        image: 'https://images.unsplash.com/photo-1583069150655-e417a86f1839?w=400&q=80', // Updated Image
         price: 214,
         discountPrice: 192,
         weight: '250g',
@@ -212,7 +212,7 @@ const FIXED_PRODUCTS: Product[] = [
         id: 'breeze-aam-papad-1kg',
         name: 'Breeze Aam Papad',
         category: 'Paan Corner',
-        image: 'https://images.unsplash.com/photo-1599639668312-70b65f727f7f?w=400&q=80',
+        image: 'https://images.unsplash.com/photo-1583069150655-e417a86f1839?w=400&q=80',
         price: 225,
         discountPrice: 202,
         weight: '1kg',
