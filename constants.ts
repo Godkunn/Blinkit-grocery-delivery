@@ -21,9 +21,22 @@ export const CATEGORIES: Category[] = [
   { id: 'cat_15', name: 'Home & Kitchen', image: 'https://cdn-icons-png.flaticon.com/512/3081/3081971.png' },
   { id: 'cat_16', name: 'Baby Care', image: 'https://cdn-icons-png.flaticon.com/512/2977/2977536.png' },
   { id: 'cat_17', name: 'Pet Care', image: 'https://cdn-icons-png.flaticon.com/512/3048/3048039.png' },
+  { id: 'cat_18', name: 'Sexual Wellness', image: 'https://cdn-icons-png.flaticon.com/512/2966/2966334.png' },
 ];
 
 const PRODUCT_TEMPLATES = [
+  // --- Sexual Wellness (New) ---
+  { name: 'Air Ultra Thin Condoms', category: 'Sexual Wellness', price: 240, image: 'https://images.unsplash.com/photo-1595348007621-e0c90f209589?w=400&q=80' }, // Abstract box
+  { name: 'Extra Dots Condoms', category: 'Sexual Wellness', price: 180, image: 'https://images.unsplash.com/photo-1626027178306-6e541620a811?w=400&q=80' },
+  { name: 'Chocolate Flavor Condoms', category: 'Sexual Wellness', price: 200, image: 'https://images.unsplash.com/photo-1575482343999-6e3e15b53293?w=400&q=80' },
+  { name: 'Ribbed & Dotted Condoms', category: 'Sexual Wellness', price: 190, image: 'https://images.unsplash.com/photo-1555618456-557c6b44d9f6?w=400&q=80' },
+  { name: 'Lubricant Gel (50ml)', category: 'Sexual Wellness', price: 350, image: 'https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=400&q=80' }, // Gel bottle like
+  { name: 'Whisper Ultra Wings (XL)', category: 'Sexual Wellness', price: 140, image: 'https://images.unsplash.com/photo-1616645398713-7b567d02513f?w=400&q=80' }, // Sanitary pad style
+  { name: 'Stayfree Secure Cottony', category: 'Sexual Wellness', price: 90, image: 'https://images.unsplash.com/photo-1616645398713-7b567d02513f?w=400&q=80' },
+  { name: 'Period Panties (L)', category: 'Sexual Wellness', price: 499, image: 'https://images.unsplash.com/photo-1595348007621-e0c90f209589?w=400&q=80' },
+  { name: 'Prega News Kit', category: 'Sexual Wellness', price: 55, image: 'https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=400&q=80' },
+  { name: 'i-Pill Tablet', category: 'Sexual Wellness', price: 110, image: 'https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=400&q=80' },
+
   // --- Vegetables & Fruits ---
   { name: 'Red Onion', category: 'Vegetables & Fruits', price: 35, image: 'https://images.unsplash.com/photo-1618512496248-a07fe83aa8cb?w=400&q=80' },
   { name: 'Fresh Potato', category: 'Vegetables & Fruits', price: 28, image: 'https://images.unsplash.com/photo-1518977676601-b53f82aba655?w=400&q=80' },
@@ -188,6 +201,7 @@ const BRAND_MAP: Record<string, string[]> = {
   'Pet Care': ['Pedigree', 'Whiskas', 'Royal Canin', 'Drools', 'Purepet'],
   'Vegetables & Fruits': ['Farm Fresh', 'Organic', 'Simply Fresh', 'Nature', 'Fresh Pick'],
   'Paan Corner': ['Roch', 'Stash Pro', 'Cocooyaya', 'Swad', 'Surili', 'Doki', 'Nicofree', 'Breeze'], // Added brands from screenshot
+  'Sexual Wellness': ['Durex', 'Skore', 'Manforce', 'Whisper', 'Stayfree', 'i-Pill', 'Prega News', 'Moods'], // Sexual Wellness brands
 };
 
 // Fallback brands if category match fails

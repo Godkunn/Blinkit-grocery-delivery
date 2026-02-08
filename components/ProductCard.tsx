@@ -30,12 +30,12 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product, quantity, onU
       )}
 
       {/* Image */}
-      <div className="w-full aspect-square mb-2 relative flex items-center justify-center">
+      <div className="w-full aspect-square mb-2 relative flex items-center justify-center overflow-hidden rounded-lg"> 
         <img 
             src={imgSrc} 
             alt={product.name} 
             onError={handleError}
-            className={`w-full h-full object-contain rounded-lg p-1 ${hasError ? 'opacity-50' : ''}`}
+            className={`w-full h-full object-contain p-1 transition-transform duration-500 group-hover:scale-110 ${hasError ? 'opacity-50' : ''}`}
             loading="lazy"
         />
       </div>

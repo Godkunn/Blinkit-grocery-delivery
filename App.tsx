@@ -240,11 +240,11 @@ export default function App() {
                 </div>
         </div>
 
-        {/* Categories Grid - Mobile Optimized */}
+        {/* Categories Grid - Mobile Optimized - Dense Grid for Desktop */}
         <div className="mb-10 px-4 md:px-0">
             <h3 className="text-lg md:text-xl font-bold text-slate-800 mb-4">Shop by Category</h3>
-            {/* Updated grid to 6 cols on desktop to fit 17 items as 6, 6, 5 */}
-            <div className="grid grid-cols-4 sm:grid-cols-5 md:grid-cols-6 gap-x-3 gap-y-6">
+            {/* Increased column count to 10 on large screens for a tighter, more app-like feel */}
+            <div className="grid grid-cols-4 sm:grid-cols-6 md:grid-cols-8 lg:grid-cols-10 gap-x-3 gap-y-6">
                 {CATEGORIES.map(cat => (
                     <div 
                         key={cat.id} 
@@ -252,9 +252,10 @@ export default function App() {
                         onClick={() => handleCategoryClick(cat.name)}
                     >
                         <div className="w-full aspect-[4/5] bg-blue-50 rounded-xl mb-2 overflow-hidden shadow-sm border border-transparent group-hover:border-brand-green transition-all relative">
-                            <img src={cat.image} alt={cat.name} className="w-full h-full object-contain p-2 mix-blend-multiply hover:scale-110 transition-transform duration-300" />
+                            {/* Reduced zoom to scale-105 for a subtler effect */}
+                            <img src={cat.image} alt={cat.name} className="w-full h-full object-contain p-1.5 mix-blend-multiply group-hover:scale-105 transition-transform duration-300 ease-out" />
                         </div>
-                        <span className="text-[10px] md:text-sm font-semibold text-slate-700 text-center leading-tight">{cat.name}</span>
+                        <span className="text-[10px] md:text-xs font-semibold text-slate-700 text-center leading-tight group-hover:text-brand-green transition-colors">{cat.name}</span>
                     </div>
                 ))}
             </div>
