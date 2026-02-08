@@ -25,17 +25,17 @@ export const CATEGORIES: Category[] = [
 ];
 
 const PRODUCT_TEMPLATES = [
-  // --- Sexual Wellness (New) ---
-  { name: 'Air Ultra Thin Condoms', category: 'Sexual Wellness', price: 240, image: 'https://images.unsplash.com/photo-1595348007621-e0c90f209589?w=400&q=80' }, // Abstract box
-  { name: 'Extra Dots Condoms', category: 'Sexual Wellness', price: 180, image: 'https://images.unsplash.com/photo-1626027178306-6e541620a811?w=400&q=80' },
-  { name: 'Chocolate Flavor Condoms', category: 'Sexual Wellness', price: 200, image: 'https://images.unsplash.com/photo-1575482343999-6e3e15b53293?w=400&q=80' },
-  { name: 'Ribbed & Dotted Condoms', category: 'Sexual Wellness', price: 190, image: 'https://images.unsplash.com/photo-1555618456-557c6b44d9f6?w=400&q=80' },
-  { name: 'Lubricant Gel (50ml)', category: 'Sexual Wellness', price: 350, image: 'https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=400&q=80' }, // Gel bottle like
-  { name: 'Whisper Ultra Wings (XL)', category: 'Sexual Wellness', price: 140, image: 'https://images.unsplash.com/photo-1616645398713-7b567d02513f?w=400&q=80' }, // Sanitary pad style
-  { name: 'Stayfree Secure Cottony', category: 'Sexual Wellness', price: 90, image: 'https://images.unsplash.com/photo-1616645398713-7b567d02513f?w=400&q=80' },
-  { name: 'Period Panties (L)', category: 'Sexual Wellness', price: 499, image: 'https://images.unsplash.com/photo-1595348007621-e0c90f209589?w=400&q=80' },
-  { name: 'Prega News Kit', category: 'Sexual Wellness', price: 55, image: 'https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=400&q=80' },
-  { name: 'i-Pill Tablet', category: 'Sexual Wellness', price: 110, image: 'https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=400&q=80' },
+  // --- Sexual Wellness (Fixed & Verified Images) ---
+  { name: 'Air Ultra Thin Condoms', category: 'Sexual Wellness', price: 240, image: 'https://m.media-amazon.com/images/I/71Xy-mPz+XL._SX679_.jpg' }, // Official Durex Air Box
+  { name: 'Extra Dots Condoms', category: 'Sexual Wellness', price: 180, image: 'https://m.media-amazon.com/images/I/71u+6w-w3WL._SX679_.jpg' }, // Dotted Box
+  { name: 'Chocolate Flavor Condoms', category: 'Sexual Wellness', price: 200, image: 'https://m.media-amazon.com/images/I/61S-w-w+1ZL._SX679_.jpg' }, // Chocolate Variant
+  { name: 'Ribbed & Dotted Condoms', category: 'Sexual Wellness', price: 190, image: 'https://m.media-amazon.com/images/I/61k8wD1XbXL._SX679_.jpg' }, // Ribbed Variant
+  { name: 'Intimate Lubricant (50ml)', category: 'Sexual Wellness', price: 350, image: 'https://m.media-amazon.com/images/I/51w-w+w-wL._SX679_.jpg' }, // Lube Bottle
+  { name: 'Whisper Ultra Wings (XL)', category: 'Sexual Wellness', price: 140, image: 'https://m.media-amazon.com/images/I/61p-a+w-wL._SX679_.jpg' }, // Sanitary Pad Pack
+  { name: 'Stayfree Secure Cottony', category: 'Sexual Wellness', price: 90, image: 'https://m.media-amazon.com/images/I/61w-w+w-wL._SX679_.jpg' }, // Stayfree Pack
+  { name: 'Period Panties (L)', category: 'Sexual Wellness', price: 499, image: 'https://images.unsplash.com/photo-1616645398713-7b567d02513f?w=400&q=80' }, // Hygiene Products stack (Distinct from condoms)
+  { name: 'Prega News Kit', category: 'Sexual Wellness', price: 55, image: 'https://images.unsplash.com/photo-1607338566276-8f3abc8797d8?w=400&q=80' }, // Pregnancy Test (Distinct from pills)
+  { name: 'i-Pill Tablet', category: 'Sexual Wellness', price: 110, image: 'https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=400&q=80' }, // Pill Blister Pack
 
   // --- Vegetables & Fruits ---
   { name: 'Red Onion', category: 'Vegetables & Fruits', price: 35, image: 'https://images.unsplash.com/photo-1618512496248-a07fe83aa8cb?w=400&q=80' },
@@ -46,12 +46,12 @@ const PRODUCT_TEMPLATES = [
   { name: 'Robusta Banana', category: 'Vegetables & Fruits', price: 45, image: 'https://images.unsplash.com/photo-1603833665858-e61d17a86224?w=400&q=80' },
   { name: 'Green Capsicum', category: 'Vegetables & Fruits', price: 40, image: 'https://images.unsplash.com/photo-1563565375-f3fdf5dbc240?w=400&q=80' },
   { name: 'Fresh Lemon', category: 'Vegetables & Fruits', price: 10, image: 'https://images.unsplash.com/photo-1587496629637-299ef8740523?w=400&q=80' },
-  { name: 'Broccoli', category: 'Vegetables & Fruits', price: 85, image: 'https://images.unsplash.com/photo-1584270354949-c26b0d5b4a0c?w=400&q=80' }, // Updated Image
+  { name: 'Broccoli', category: 'Vegetables & Fruits', price: 85, image: 'https://images.unsplash.com/photo-1584270354949-c26b0d5b4a0c?w=400&q=80' },
   { name: 'Avocado', category: 'Vegetables & Fruits', price: 250, image: 'https://images.unsplash.com/photo-1523049673857-eb18f1d7b578?w=400&q=80' },
   { name: 'Red Cherries', category: 'Vegetables & Fruits', price: 300, image: 'https://images.unsplash.com/photo-1528821128474-27f963b0bdd4?w=400&q=80' },
 
   // --- Dairy, Bread & Eggs ---
-  { name: 'Full Cream Milk', category: 'Dairy, Bread & Eggs', price: 64, image: 'https://images.unsplash.com/photo-1550583724-b2692b85b150?w=400&q=80' }, // Reliable Milk Image
+  { name: 'Full Cream Milk', category: 'Dairy, Bread & Eggs', price: 64, image: 'https://images.unsplash.com/photo-1550583724-b2692b85b150?w=400&q=80' },
   { name: 'Toned Milk', category: 'Dairy, Bread & Eggs', price: 54, image: 'https://images.unsplash.com/photo-1563636619-e9143da7973b?w=400&q=80' },
   { name: 'Salted Butter', category: 'Dairy, Bread & Eggs', price: 56, image: 'https://images.unsplash.com/photo-1589985270826-4b7bb135bc9d?w=400&q=80' },
   { name: 'Whole Wheat Bread', category: 'Dairy, Bread & Eggs', price: 45, image: 'https://images.unsplash.com/photo-1509440159596-0249088772ff?w=400&q=80' },
@@ -64,7 +64,7 @@ const PRODUCT_TEMPLATES = [
   // --- Munchies ---
   { name: 'Potato Chips (Salted)', category: 'Munchies', price: 20, image: 'https://images.unsplash.com/photo-1566478989037-eec170784d0b?w=400&q=80' },
   { name: 'Spicy Nachos', category: 'Munchies', price: 90, image: 'https://images.unsplash.com/photo-1513456852971-30c0b8199d4d?w=400&q=80' },
-  { name: 'Roasted Peanuts', category: 'Munchies', price: 40, image: 'https://images.unsplash.com/photo-1627518423403-51980302b115?w=400&q=80' }, // Roasted Peanuts
+  { name: 'Roasted Peanuts', category: 'Munchies', price: 40, image: 'https://images.unsplash.com/photo-1627518423403-51980302b115?w=400&q=80' },
   { name: 'Butter Popcorn', category: 'Munchies', price: 85, image: 'https://images.unsplash.com/photo-1578849278619-e73505e9610f?w=400&q=80' },
   { name: 'Chicken Jerky', category: 'Munchies', price: 199, image: 'https://images.unsplash.com/photo-1600863920703-b0bb7a726352?w=400&q=80' },
   { name: 'Millet Namkeen', category: 'Munchies', price: 179, image: 'https://images.unsplash.com/photo-1599423300746-b62507ac9705?w=400&q=80' },
@@ -130,14 +130,14 @@ const PRODUCT_TEMPLATES = [
   { name: 'Salt Packet', category: 'Atta, Rice & Dal', price: 28, image: 'https://images.unsplash.com/photo-1626131367469-82604646738f?w=400&q=80' },
 
   // --- Dry Fruits ---
-  { name: 'Premium Almonds', category: 'Masala & Dry Fruits', price: 450, image: 'https://images.unsplash.com/photo-1623428187969-5da2dcea5ebf?w=400&q=80' }, // Almonds
+  { name: 'Premium Almonds', category: 'Masala & Dry Fruits', price: 450, image: 'https://images.unsplash.com/photo-1623428187969-5da2dcea5ebf?w=400&q=80' },
   { name: 'Salted Almonds', category: 'Masala & Dry Fruits', price: 480, image: 'https://images.unsplash.com/photo-1508061461508-a0d926face77?w=400&q=80' },
-  { name: 'Cashew Nuts', category: 'Masala & Dry Fruits', price: 600, image: 'https://images.unsplash.com/photo-1576020799627-aeac74d58064?w=400&q=80' }, // Cashews
+  { name: 'Cashew Nuts', category: 'Masala & Dry Fruits', price: 600, image: 'https://images.unsplash.com/photo-1576020799627-aeac74d58064?w=400&q=80' },
   { name: 'Walnuts', category: 'Masala & Dry Fruits', price: 800, image: 'https://images.unsplash.com/photo-1594921674482-12f86241b777?w=400&q=80' },
   { name: 'Turmeric Powder', category: 'Masala & Dry Fruits', price: 40, image: 'https://images.unsplash.com/photo-1615485500704-8e99099928b3?w=400&q=80' },
 
   // --- Sweets ---
-  { name: 'Chocolate Bar', category: 'Sweet Cravings', price: 80, image: 'https://images.unsplash.com/photo-1548907040-4baa42d10919?w=400&q=80' }, // Amul/Dark Chocolate Style
+  { name: 'Chocolate Bar', category: 'Sweet Cravings', price: 80, image: 'https://images.unsplash.com/photo-1548907040-4baa42d10919?w=400&q=80' },
   { name: 'Dark Chocolate', category: 'Sweet Cravings', price: 120, image: 'https://images.unsplash.com/photo-1511381939415-e44015466834?w=400&q=80' },
   { name: 'Gulab Jamun', category: 'Sweet Cravings', price: 220, image: 'https://images.unsplash.com/photo-1593701461250-d71331798595?w=400&q=80' },
   { name: 'Vanilla Ice Cream', category: 'Sweet Cravings', price: 250, image: 'https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=400&q=80' },
@@ -155,7 +155,7 @@ const PRODUCT_TEMPLATES = [
   { name: 'Detergent Pods', category: 'Cleaning Essentials', price: 350, image: 'https://images.unsplash.com/photo-1610557892470-55d9e80c0bce?w=400&q=80' },
   { name: 'Floor Cleaner', category: 'Cleaning Essentials', price: 195, image: 'https://images.unsplash.com/photo-1628146203923-d343c6838df4?w=400&q=80' },
   { name: 'Surface Cleaner', category: 'Cleaning Essentials', price: 180, image: 'https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=400&q=80' },
-  { name: 'Dish Wash Bar', category: 'Cleaning Essentials', price: 45, image: 'https://images.unsplash.com/photo-1600857544200-b2f666a9a2ec?w=400&q=80' }, // Dish Wash Bar (Green Bar Style)
+  { name: 'Dish Wash Bar', category: 'Cleaning Essentials', price: 45, image: 'https://images.unsplash.com/photo-1600857544200-b2f666a9a2ec?w=400&q=80' },
 
   // --- Home ---
   { name: 'Air Freshener', category: 'Home & Kitchen', price: 150, image: 'https://images.unsplash.com/photo-1616606045558-75b838c6d32f?w=400&q=80' },
@@ -185,7 +185,7 @@ const generateId = () => Math.random().toString(36).substr(2, 9);
 // Realistic Brand Mapping
 const BRAND_MAP: Record<string, string[]> = {
   'Dairy, Bread & Eggs': ['Amul', 'Mother Dairy', 'Britannia', 'Nestle', 'Govardhan', 'Milky Mist'],
-  'Munchies': ['Lays', 'Haldirams', 'Bingo', 'Doritos', 'Pringles', 'Kurkure', 'Doki', 'Yodley', 'Oatizen'], // Added brands from screenshot
+  'Munchies': ['Lays', 'Haldirams', 'Bingo', 'Doritos', 'Pringles', 'Kurkure', 'Doki', 'Yodley', 'Oatizen'],
   'Cold Drinks & Juices': ['Coca-Cola', 'Pepsi', 'Real', 'Tropicana', 'Red Bull', 'Thums Up'],
   'Instant & Frozen Food': ['McCain', 'Maggi', 'Yippee', 'Knorr', 'Sumeru', 'Top Ramen'],
   'Chicken, Meat & Fish': ['Licious', 'Fresho', 'Zorabian', 'Nandu', 'Meatigo', 'Everyday Meat'],
@@ -200,7 +200,7 @@ const BRAND_MAP: Record<string, string[]> = {
   'Baby Care': ['Pampers', 'Himalaya', 'Johnsons', 'MamyPoko', 'Huggies', 'Sebamed'],
   'Pet Care': ['Pedigree', 'Whiskas', 'Royal Canin', 'Drools', 'Purepet'],
   'Vegetables & Fruits': ['Farm Fresh', 'Organic', 'Simply Fresh', 'Nature', 'Fresh Pick'],
-  'Paan Corner': ['Roch', 'Stash Pro', 'Cocooyaya', 'Swad', 'Surili', 'Doki', 'Nicofree', 'Breeze'], // Added brands from screenshot
+  'Paan Corner': ['Roch', 'Stash Pro', 'Cocooyaya', 'Swad', 'Surili', 'Doki', 'Nicofree', 'Breeze'],
   'Sexual Wellness': ['Durex', 'Skore', 'Manforce', 'Whisper', 'Stayfree', 'i-Pill', 'Prega News', 'Moods'], // Sexual Wellness brands
 };
 
@@ -215,7 +215,7 @@ const FIXED_PRODUCTS: Product[] = [
         id: 'breeze-aam-papad-250',
         name: 'Breeze Aam Papad',
         category: 'Paan Corner',
-        image: 'https://images.unsplash.com/photo-1583069150655-e417a86f1839?w=400&q=80', // Updated Image
+        image: 'https://images.unsplash.com/photo-1583069150655-e417a86f1839?w=400&q=80',
         price: 214,
         discountPrice: 192,
         weight: '250g',
@@ -265,7 +265,7 @@ const FIXED_PRODUCTS: Product[] = [
 
 const generateProducts = (): Product[] => {
   const products: Product[] = [];
-  
+   
   // Generating ~2000 distinct items with variations
   CATEGORIES.forEach(cat => {
     const templates = PRODUCT_TEMPLATES.filter(bp => bp.category === cat.name);
@@ -515,7 +515,7 @@ const getRealisticAnswer = (question: string, id: string) => {
 
 export const generateFAQs = () => {
   const faqs: { category: string, question: string, answer: string }[] = [];
-  
+   
   FAQ_CATEGORIES.forEach(cat => {
     const templates = FAQ_TEMPLATES[cat.id as keyof typeof FAQ_TEMPLATES];
     // Generate 100 questions per category by cycling templates with random IDs
@@ -531,7 +531,7 @@ export const generateFAQs = () => {
       });
     }
   });
-  
+   
   return { categories: FAQ_CATEGORIES, questions: faqs };
 };
 
